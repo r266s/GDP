@@ -1,0 +1,12 @@
+name: GDP
+version: '${project.version}'
+main: GDP.manager
+api-version: '1.20'
+authors: [r266]
+description: Get death position -r266
+
+commands:
+  tp-death:
+    description: teleports you to your death location
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
